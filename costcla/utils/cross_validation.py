@@ -25,7 +25,7 @@ from .base import is_classifier, clone
 from .utils import indexable, check_random_state, safe_indexing
 from .utils.validation import _num_samples, check_array
 from .utils.multiclass import type_of_target
-from .externals.joblib import Parallel, delayed, logger
+from joblib import Parallel, delayed, logger
 from .externals.six import with_metaclass
 from .externals.six.moves import zip
 from .metrics.scorer import check_scoring
